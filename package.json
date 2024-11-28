@@ -1,0 +1,22 @@
+{
+  "name": "cebety",
+  "version": "1.0.0",
+  "description": "An institution independent cbt platform",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node -r dotenv/config app.js"
+  },
+  "author": "Gedoni Ani",
+  "license": "MIT"
+}
